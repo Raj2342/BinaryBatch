@@ -1,0 +1,98 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "demo",
+            "request": "launch",
+            "mainClass": "demo",
+            "projectName": "BinaryBatch_498e5a78"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Anny_Array",
+            "request": "launch",
+            "mainClass": "Anny_Array",
+            "projectName": "Dsa-java_aac06efe"
+        },
+        {
+            "type": "java",
+            "name": "Array",
+            "request": "launch",
+            "mainClass": "Array_Folder.Array",
+            "projectName": "Dsa-java_aac06efe"
+        },
+        {
+            "type": "java",
+            "name": "Two_D_Array",
+            "request": "launch",
+            "mainClass": "Array_Folder.Two_D_Array",
+            "projectName": "Dsa-java_aac06efe"
+        },
+        {
+            "type": "java",
+            "name": "leng",
+            "request": "launch",
+            "mainClass": "leng",
+            "projectName": "Dsa-java_aac06efe"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "loops_pattern.Test",
+            "projectName": "Dsa-java_aac06efe"
+        },
+        {
+            "type": "java",
+            "name": "loop_pattern",
+            "request": "launch",
+            "mainClass": "loops_pattern.loop_pattern",
+            "projectName": "Dsa-java_aac06efe"
+        },
+        {
+            "type": "java",
+            "name": "nested_loop",
+            "request": "launch",
+            "mainClass": "loops_pattern.nested_loop",
+            "projectName": "Dsa-java_aac06efe"
+        },
+        {
+            "type": "java",
+            "name": "Logical_operator",
+            "request": "launch",
+            "mainClass": "operator_loops.Logical_operator",
+            "projectName": "Dsa-java_aac06efe"
+        },
+        {
+            "type": "java",
+            "name": "conditional_operator",
+            "request": "launch",
+            "mainClass": "operator_loops.conditional_operator",
+            "projectName": "Dsa-java_aac06efe"
+        },
+        {
+            "type": "java",
+            "name": "loop",
+            "request": "launch",
+            "mainClass": "operator_loops.loop",
+            "projectName": "Dsa-java_aac06efe"
+        },
+        {
+            "type": "java",
+            "name": "ternary_operator",
+            "request": "launch",
+            "mainClass": "operator_loops.ternary_operator",
+            "projectName": "Dsa-java_aac06efe"
+        }
+    ]
+}
