@@ -1,6 +1,7 @@
 package String;
 
 
+
 public class Type_String {
        public static void main(String[] args) {
         /*  
@@ -18,14 +19,20 @@ public class Type_String {
         */
    
           // inside   " string constant pool"
-       String  refValriable =  " pw"; 
-       String  refValriable1 =  " pw"; 
-      System.out.println(refValriable == refValriable1);
+      //  String  refValriable =  " pw"; 
+      //  String  refValriable1 =  " pw"; 
+      // System.out.println(refValriable == refValriable1);
 
-      //  in heap but outside the scp
-     String  refvariable2 = new String("pwskills");
-     String  refvariable3 = new String("pwskills");
-     System.out.println(refvariable2 == refvariable3);
+      //  in heap but outside the scp  -- diference btw obj of string and  stringbuilder
+    //  String  refvariable2 = new String("pwskills");
+    //    refvariable2.concat("rajkumar");
+    //    System.out.println(refvariable2);
+
+     StringBuffer  refvariable2 = new StringBuffer("pwskills");
+       refvariable2.append("rajkumar");
+       System.out.println(refvariable2);
+    //  String  refvariable3 = new String("pwskills");
+    //  System.out.println(refvariable2 == refvariable3);
     
        }
 }

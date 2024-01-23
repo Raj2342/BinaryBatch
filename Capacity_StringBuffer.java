@@ -1,4 +1,4 @@
-package String.mutable_String;
+
 public class Capacity_StringBuffer {
       public static void main(String[] args) {
          /* 
@@ -15,16 +15,16 @@ public class Capacity_StringBuffer {
            */
           
         //   case-1 :   if not use append direct string  will assign in constructor 
-       /*   StringBuffer sb = new StringBuffer("mohanDas");
-         System.out.println(sb.capacity());
-         sb.setCharAt(1,'S');
-         System.out.println(sb);
-         */
+         //  StringBuffer sb = new StringBuffer("mohanDas");
+         // System.out.println(sb.capacity());
+         // sb.setCharAt(1,'S');
+         // System.out.println(sb);
+      
 
         // **** increase and decrease capacity of StringBuffer
-        // StringBuffer sb = new StringBuffer(capacity)
+        // ***************StringBuffer sb = new StringBuffer(capacity)***********
         StringBuffer sb = new StringBuffer(150);
-        System.out.println("self made capacity :"+sb.capacity());
+      //   System.out.println("self made capacity :"+sb.capacity());
         sb.append("java");
         sb.trimToSize();
         System.out.println("it decrease  capacity using property "+sb.capacity());

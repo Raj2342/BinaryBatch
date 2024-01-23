@@ -6,7 +6,7 @@ public class Inbuit_Method {
         
         String str = " pw skills java";
         // System.out.println(str);
-        //  System.out.println(str.length());
+         System.out.println(str.length());
         //  System.out.println(str.toLowerCase());
         //  System.out.println(str.toUpperCase());
         // work as a array 
