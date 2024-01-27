@@ -133,5 +133,9 @@ class GfG {
 
  ``````
 
-  
+# CREATE AN EMPTY ARRAY
+```java
+int[] myArray = new int[3]
+
+```   
 
