@@ -15,12 +15,14 @@
 
 import java.util.Arrays;
 
-public class practice_problem {
+public class Large_ele {
         
          
        public  static int  crack(int arr[] , int n ){
                for(int i=0; i<arr.length;i++){
                 for(int j=0; j<arr.length-i-1 ; j++){
+                    // if(arr[j]> arr[j+1])- acending order
+                    // if(arr[j]< arr[j+1]) - decending order 
                      if(arr[j]> arr[j+1]){
                         int temp = arr[j+1];
                          arr[j+1] = arr[j];
@@ -30,6 +32,8 @@ public class practice_problem {
                 }
                }
                return  arr[arr.length-1];
+            //    System.out.println(arr[ arr.length-1]); // without return , void case
+
        }
     
     
