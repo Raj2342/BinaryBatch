@@ -19,7 +19,7 @@ public class Approach_second {
                arr[j]= arr[arr.length-1];
                
                // print 
-             for(int i=0; i<j;i++){
+             for(int i=0; i<j+1;i++){
                 System.out.print(arr[i]+" ");   
              }
         
