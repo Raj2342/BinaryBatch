@@ -1,4 +1,4 @@
-import Encapsulation.demo;
+// import Encapsulation.demo;
 
 class demo {
         
