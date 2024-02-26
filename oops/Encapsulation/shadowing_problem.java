@@ -16,9 +16,9 @@ package Encapsulation;
 
     //    }
 
-    public void setData2( int   age /*instance variable  */){   // concept-2
-       /* left-side age : is local variable  */ age = age;  
-             
+    public void setData2( int   age /*local variable  */){   // concept-2
+       /* left-side age : is instance varibale   */ age = age;    /* local variable */
+             // complier comnfuse ho gya vo dono ko local variable samaj raha hai 
 
        }
 
@@ -26,7 +26,7 @@ package Encapsulation;
        
        public void show(){
        
-        System.out.println(age + " " + name);
+        System.out.println(age /* instance variable ki valure print hogi  */);
        
     }
 
@@ -41,15 +41,15 @@ public class shadowing_problem {
         
         Student obj = new Student();
         Student obj1 = new Student();
-             obj.setData();
-              obj.show();
+            //  obj.setData();
+            //   obj.show();
             //   obj.setData();
             
            /*  obj1.setData2(3 , "mohan");  // concept-1
               obj1.show();
               */
 
-              obj1.setData2();
+              obj1.setData2( 17);
               obj1.show();
      }
     

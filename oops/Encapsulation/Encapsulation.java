@@ -28,7 +28,7 @@ class Student
         // age=2;
         // name = " mohan";
         System.out.println(name + " " + age);
-
+  
     }
  }
 

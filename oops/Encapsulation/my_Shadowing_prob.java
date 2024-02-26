@@ -5,7 +5,7 @@ package Encapsulation;
 
             public void age( int age)
             {
-               // it is traeated as local variable 
+// right side  is traeated as local variable  and give first prefrence to local variable 
                   age =  age;
 
             }
