@@ -1,34 +1,44 @@
+/////////////////  PROGRAM-1 ///////////////////////////////////////////////
 
- class Student {
-         
-      private String  name = " sohan" ;
-       private  int age  = 17;
+// // prit geek for geeks 
+
+// class Getset{
       
-       public void setdata( int age ){
-            // name = " raj";
-            this.age = age; // complier  soch raha hai ye dono local variable hai 
-       }
+//      private String  name ;
 
-      
-     
-      public void show(){
-         System.out.println( age); // instance variable 
-       }
- }
+//      public void setName(String  name){
+//             this.name = name;
+//      }
 
+//      public String getName(){
+//           return name;
+//    }
+// }
 
 
 
-public class practice1 {
+
+
+// public class practice1 {
           
-       public static void main(String[] args) {
-            
-             Student obj = new Student();
-             Student obj1 = new Student();
-            //  obj.setdata(18); 
-             obj.setdata(25);
-            // obj.setdata();
-            obj.show();
-            // obj1.show();
-       }
-}
+//        public static void main(String[] args) {
+//            Getset obj = new Getset();
+//            obj.setName(" geek for geeks ");
+//           String stroge = obj.getName() ;
+//           System.out.println(stroge);
+           
+           
+//        }
+// }
+
+
+/////////////////  PROGRAM-2 ///////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
