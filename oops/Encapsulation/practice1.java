@@ -6,7 +6,7 @@
       
        public void setdata( int age ){
             // name = " raj";
-            age = age; // complier  soch raha hai ye dono local variable hai 
+            this.age = age; // complier  soch raha hai ye dono local variable hai 
        }
 
       
@@ -26,7 +26,7 @@ public class practice1 {
              Student obj = new Student();
              Student obj1 = new Student();
             //  obj.setdata(18); 
-             obj1.setdata(25);
+             obj.setdata(25);
             // obj.setdata();
             obj.show();
             // obj1.show();
