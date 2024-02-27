@@ -1,1 +1,2 @@
-Striver sheet solve and pw lecturew notes also avliable   . ALL JAVA QUESTION ALL UPLOADED
+# Learning a java with dsa for java full stack developer   
+##  whatever i am learning all of things are uploded in github 
