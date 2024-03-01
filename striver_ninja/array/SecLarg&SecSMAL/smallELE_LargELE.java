@@ -15,10 +15,10 @@ public class smallELE_LargELE {
             }
         }
                //   print array in normal way 
-        for(int i=0; i<n-1; i++){
-            System.out.print(arr[i] +" ");
-        }
-        
+        // for(int i=0; i<n-1; i++){
+        //     System.out.print(arr[i] +" ");
+        // }
+        // print array 
         System.out.println(arr[ arr.length-2]); 
               
     }
@@ -37,9 +37,10 @@ public class smallELE_LargELE {
         }
            
     //   print array in normal way 
-        for(int i=0; i<n-1; i++){
-            System.out.print(arr[i] +" ");
-        }
+        // for(int i=0; i<n-1; i++){
+        //     System.out.print(arr[i] +" ");
+        // }
+        // print in  array 
         System.out.println(arr[ arr.length-2]); 
               
     }
@@ -53,9 +54,9 @@ public class smallELE_LargELE {
                int arr[] = { 8,4,6,3,7};
                int n =5;
                Smallest(arr, n);
-               System.out.println(" SECOND SMALLEST" + Arrays.toString(arr));
+            //    System.out.println(" SECOND SMALLEST" + Arrays.toString(arr));
                Largest(arr, n);
-               System.out.println(" SECOND LARGEST" + Arrays.toString(arr));
+            //    System.out.println(" SECOND LARGEST" + Arrays.toString(arr));
 
             // System.out.println(Smallest(arr,n));
                
