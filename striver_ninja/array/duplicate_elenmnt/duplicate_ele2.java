@@ -1,6 +1,6 @@
 // it will not print repeated value 
 
-public class h {
+public class duplicate_ele2 {
       
     public  static void   bubleSort(int arr[]  ){
        
@@ -21,6 +21,8 @@ public class h {
              for(int i=0; i<arr.length-1;i++){
                 if (arr[i]==arr[i+1]) {
                     System.out.println(arr[i]);
+                    // it is use print first dulplicate array 
+                    // break;
                 }
              }
     }

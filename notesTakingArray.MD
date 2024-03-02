@@ -155,4 +155,14 @@ int[] array = {0, 5, 6, 0, 0, 2, 5};
             }
         }
 ```
+### creae an array using arrayList
+``` java
+ArrayList<String> cars = new ArrayList<>();
+         cars.add("volvo");
+         cars.add("hundai");
+         cars.add("mahindra");
+         System.out.println(cars);
 
+```
+output: 
+ [volvo, hundai, mahindra]
