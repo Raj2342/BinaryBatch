@@ -166,3 +166,12 @@ ArrayList<String> cars = new ArrayList<>();
 ```
 output: 
  [volvo, hundai, mahindra]
+
+ # if Array code me nahi hai but Arraylist/other-method ka use karke array bani hai vo console me hai uss array ka use kaise kare ?
+   *** for each loop ***
+   ```java
+    int SumEven =0;
+   for(int even : s1){
+                  SumEven = SumEven + even;
+             }
+  ```
