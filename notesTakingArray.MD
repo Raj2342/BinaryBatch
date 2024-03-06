@@ -168,6 +168,8 @@ output:
  [volvo, hundai, mahindra]
 
  # if Array code me nahi hai but Arraylist/other-method ka use karke array bani hai vo console me hai uss array ka use kaise kare ?
+ or 
+ ## add array  using for each loop
    *** for each loop ***
    ```java
     int SumEven =0;
@@ -175,3 +177,14 @@ output:
                   SumEven = SumEven + even;
              }
   ```
+## add  array using loop
+```java
+
+             int arr[] = { 2,3,4,5,6};
+           int sum =0;
+           for(int i=0; i<arr.length;i++){
+              sum = sum + arr[i];
+            }
+            System.out.println( sum);
+            
+```
