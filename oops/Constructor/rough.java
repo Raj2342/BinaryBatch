@@ -30,8 +30,10 @@ public class rough {
          public static void main(String[] args) {
            
             Innerrough n1 = new Innerrough(3,"raj");
-            n1.getAge();
             n1.result();
+           int st = n1.getAge();
+           System.out.println(st);
+
 
        }
 }

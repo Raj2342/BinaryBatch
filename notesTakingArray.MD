@@ -9,7 +9,42 @@
 
   }
  ```
+*** when you create  other class like ``Innermixed_concept`` do not write public , it write only in main mehtod ***
+eg,`` wrong method `` 
+   ```java
+   
+ **public** class Innermixed_concept {
+ 
+       public void play(int a){
+    }
+}
+           
+public class mixed_concept {
+    
+    public static void main(String[] args) {
+           
+    }
+}
+   ```
+   eg, ``right method`` 
 
+   ```java
+ 
+  class Innermixed_concept {
+ 
+       public void play(int a){
+    }
+}
+           
+public class mixed_concept {
+    
+    public static void main(String[] args) {
+           
+    }
+}
+
+   ```
+  
 
 # 1. array to string  convert print as it is : Arrays.toString()
         int arr[] = { 2, 3,4,5,6};
